@@ -26,3 +26,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+report-backend/bin
+report-backend/obj
+report-backend/.vs
+report-react-app/node_modules

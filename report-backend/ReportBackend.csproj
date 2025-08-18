@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <!-- Target the latest available .NET runtime.  If you're using an older
+         SDK you can change this to net7.0 or net6.0 accordingly. -->
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Playwright is used to render the HTML report to PDF.  After
+         restoring packages run `npx playwright install` from the
+         ReportBackend project directory to download the Chromium
+         runtime. -->
+    <PackageReference Include="Microsoft.Playwright" Version="1.54.0" />
+  </ItemGroup>
+</Project>
